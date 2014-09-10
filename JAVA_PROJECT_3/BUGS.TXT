@@ -1,0 +1,4 @@
+It seems to work all acording to the specifications.
+
+For the Applications TestBook and Library, Test will Run with NO command line arguments and NO keyboard input, 
+only from datascripts by redirection.
