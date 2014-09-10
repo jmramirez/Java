@@ -1,0 +1,4 @@
+
+The assignment is complete. The interface is defined, the classes and also the TestDataReader.java. All the methods work properly. The only bug that it may have is when it runs without passing the DataReader.txt File.  
+ 
+

@@ -1,0 +1,11 @@
+useful.DataReaderImpl_1@d93a6a5
+Testing the readLine() method:
+First Line without comments.
+Second Line 
+                   
+
+
+
+Testing the resetMarker() method:
+The old marker is:#
+The new marker is://
