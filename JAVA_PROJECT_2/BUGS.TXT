@@ -1,0 +1,6 @@
+
+It seems to work all acording to the specifications.
+
+One thing is not include in this assignment is the validation when subtracting or adding. 
+ 
+

@@ -1,0 +1,260 @@
+####################### Item Number 1
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the first Item 
+12345
+Thingies
+Box of 100
+169
+50.00
+150
+100
+1200
+145
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=159
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is 159
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=169
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 169
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=170
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 170
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=145 and quantityInStock=144
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 145 and the stock for this intentory is 144
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=1265 and quantityInStock=179
+#Action7 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 145 and the stock for this intentory is 179
+35 #incAmount
+####################### Item Number 2
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the second Item 
+23456
+Wajmacallits
+Carton of 1000
+6
+450.00
+75
+25
+20
+3
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=-4
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is -4
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=6
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 6
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=28
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 28
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=3 and quantityInStock=-19
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 3 and the stock for this intentory is -19
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=85 and quantityInStock=16
+#Action7 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 85 and the stock for this intentory is 16
+35 #incAmount
+####################### Item Number 3
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the third Item 
+34567
+Widgets
+Packet of 500
+9
+9.99
+9
+25
+15
+10
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=-1
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is -1
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=9
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 9
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=35
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 35
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=10 and quantityInStock=-16
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 145 and the stock for this intentory is 144
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=40 and quantityInStock=16
+#Action8 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 40 and the stock for this intentory is 19
+35 #incAmount
+####################### Item Number 4
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the fourth Item 
+45678
+Cookies& Creme
+Box of 36 Bars
+100
+29.99
+50
+25
+15
+10
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=90
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is 90
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=100
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 100
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=35
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 35
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=10 and quantityInStock=75
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 10 and the stock for this intentory is 75
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=5 and quantityInStock=110
+#Action9 is to test receiveReplenishment(35) after this method is expected that totalSalesOrder is 5 and the stock for this intentory is 110
+35 #incAmount
+####################### Item Number 5
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the fith Item 
+56789
+Beans
+Bundle of 50
+34
+14.75
+75
+10
+16
+3
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=24
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is 24
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=34
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 34
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=28
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 28
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=3 and quantityInStock=9
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 3 and the stock for this intentory is 9
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=41 and quantityInStock=44
+#Action7 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 41 and the stock for this intentory is 44
+35 #incAmount
+####################### Item Number 6
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the Sixth Item 
+67890
+Sodas
+Box of 6
+60
+1.75
+50
+100
+0
+3
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=50
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is 50
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=60
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 60
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=28
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 28
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=3 and quantityInStock=35
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 3 and the stock for this intentory is 35
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=65 and quantityInStock=70
+#Action7 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 65 and the stock for this intentory is 70
+35 #incAmount
+####################### Item Number 7
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the Seventh Item 
+78901
+Video Games
+Box of 50
+5
+199.75
+75
+100
+25
+3
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=-5
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is -5
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=5
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 5
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=28
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 28
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=3 and quantityInStock=-20
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 3 and the stock for this intentory is -20
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=90 and quantityInStock=15
+#Action7 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 90 and the stock for this intentory is 15
+35 #incAmount
+####################### Item Number 8
+Action1 Testing getData(StringBuffer sb, DataReaderImpl_1 br, String separator) - update(StringBuffer sb) - formatDisplay(StringBuffer sb)
+# Action1  is to test methods  getData(cvs,br,"~") update(cvs) and formatDisplay(sb)
+#Data to create the Eighth Item 
+89012
+Sox
+Bag of 50
+200
+50.75
+40
+100
+25
+3
+Action2 Testing getPrimaryKey()
+#Action2 is to test the method getPrimaryKey()
+Action3 Testing  placeRlepenishmentOrder()
+#Action3 is to test placeRlepenishmentOrder() to do this during testing this function is delared public
+Action4 Testing decreaseStock(int decAmount) with decAmount=10 Expect: quantityInStock=159
+#Action4 is to test decreaseStock(10) after this method is expected that the stock for this intentory is 159
+10 #decAmount
+Action5 Testing increaseStock(int incAmount) with incAmount=10 Expect: quantityInStock=169
+#Action5 is to test increaseStock(10) after this method is expected that the stock for this intentory is 169
+10 #incAmount
+Action6 Testing placeSalesOrder(int qtyOrdered) with qtyOrdered=25 Expect: totalSalesOrder=170
+#Action6 is to test placeSalesOrder(25) after this method is expected that totalSalesOrder is 28
+25 #incAmount
+Action7 Testing shipSalesOrder(int qtyShipped) with qtyShipped=25 Expect: totalSalesOrdered=3 and quantityInStock=175
+#Action7 is to test shipSalesOrder(25) after this method is expected that totalSalesOrder is 3 and the stock for this intentory is 175
+25 #incAmount
+Action8 Testing receiveReplenishment(int qtyReceive) with qtyReceived=35 Expect: totalOrdered=90 and quantityInStock=210
+#Action8 is to test receiveReplenishment(35) after this method is expected that totalOrdered is 90 and the stock for this intentory is 210
+35 #incAmount       
+Action9 Testing formatReportHeadings_1(StringBuffer sb) formatReportData_1(StringBuffer sb)
+#Action9 is to test formatReportHeadings(sb) formatReportData_1(items)
+Action0
+
